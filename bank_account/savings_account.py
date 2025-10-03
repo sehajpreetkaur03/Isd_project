@@ -28,12 +28,3 @@ class SavingsAccount(BankAccount):
         return return_str
 
 
-# Testing condition
-c1 = SavingsAccount(22222, 2, 500, date(2025, 8, 10), 100)
-print(c1)
-print("Calculated Service Charges = %.2f" % c1.get_service_charges())
-
-print("-"*60)
-c = SavingsAccount(9483914, 2, 49, date(2025, 8, 10), 100)
-print(c)
-print("Calculated Service Charges = %.2f" % c.get_service_charges())
